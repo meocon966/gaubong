@@ -187,11 +187,15 @@
 				$('form').n33_formerize();
 
 		// Initialize scrolly links
-			$('.scrolly').n33_scrolly();
+		//$('.scrolly').n33_scrolly();
 
 		// Initialize dropotron
 			$('#nav > ul').dropotron(helios_settings.dropotron);
-
+           //$('#nav > ul').dropotron(Function(){
+               
+               
+         //  });
+           
 		// Initialize carousels
 			$('.carousel').each(function() {
 				
@@ -332,7 +336,7 @@
 					});
 				
 			});
-
+               
 		// Initialize header
 
 			// Mobile devices don't do so well with fixed backgrounds and the fullscreen header :/

@@ -14,19 +14,20 @@
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.js"></script>
-		<!--<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>-->
+		<script src="js/skel.min.js"></script>
+		<!--<script src="js/skel-panels.min.js"></script>    -->
 		<script src="js/init.js"></script>
-        <link rel="stylesheet" href="css/style.css" />
+        
 		<noscript>
+            <link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/skel-noscript.css" />
-			
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+    <!-- header-->
            <div id ="header" class = "ready" style=" padding-top : 126px; padding-bottom: 126px ;">
                <!-- inner  -->
                 <div class="inner"> 
@@ -42,38 +43,60 @@
                         <a href="#banner" class="button circled scrolly">Start</a>
                     </footer>
                 </div>
+                
                 <!--nav-->
                 <nav id="nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li class="opener" style="-webkit-user-select: none; white-space: nowrap; opacity: 1;">
-                            <span> Dropdown</span>
-                            <ul style="position: absolute; display:none; -webkit-user-select:none">
-                                <li>
-                                      <a href="#" style="display: block;">tesstttt1111</a>
-                                </li>
-                                 <li>
-                                      <a href="#" style="display: block;">tesstttt1111</a>
-                                </li>
-                                 <li>
-                                      <a href="#" style="display: block;">tesstttt1111</a>
-                                </li>
-                                 <li>
-                                      <a href="#" style="display: block;">tesstttt1111</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="#">LeftSideBar</a></li>
-                        <li><a href="#">RightSideBar</a></li>
-                        <li><a href="#">NoSideBar</a></li>                       
-                    </ul>
-                    
-                
-                </nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <span>Dropdown</span>
+                                <ul>
+                                    <li><a href="#">Lorem ipsum dolor</a></li>
+                                    <li><a href="#">Magna phasellus</a></li>
+                                    <li><a href="#">Etiam dolore nisl</a></li>
+                                    <li>
+                                        <span>And a submenu &hellip;</span>
+                                        <ul>
+                                            <li><a href="#">Lorem ipsum dolor</a></li>
+                                            <li><a href="#">Phasellus consequat</a></li>
+                                            <li><a href="#">Magna phasellus</a></li>
+                                            <li><a href="#">Etiam dolore nisl</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Veroeros feugiat</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                            <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                            <li><a href="no-sidebar.html">No Sidebar</a></li>
+                        </ul>
+                    </nav>
+           </div>
+           <!--banner-->
+           <div id="banner">
+                <h2>Hi. You're looking at <strong>Helios</strong>.</h2>
+                <span class="byline">A (free) responsive site template by HTML5 UP. Built on skelJS and released under the CCA license.</span>
            </div>
            
+           <!-- test-->
+        <!--
+           <div id="test">
+           <a href="test.html">training JQuery</a>
+           <a href="test1.html">training JQuery1</a>
            
-           <ul class="dropotron dropotron-level-0 center" style="-webkit-user-select:none ; display: block; position: absolute; top:70px; left: 680px;">
+           </div>
+           
+           <script >
+           $("#test").css("border","3px dotted green");
+           
+           </script>
+           <!-- Carousel -->
+           
+           
+           
+           
+           
+          <!-- <ul class="dropotron dropotron-level-0 center" style="-webkit-user-select:none ; display: block; position: absolute; top:70px; left: 680px;">
                 <li style="white-space: nowrap;">
                  <a href="#" style="display: block;">tesstttt1111</a>
                  </li>
@@ -87,7 +110,7 @@
                  <a href="#" style="display: block;">tesstttt1111</a>
                  </li>
            
-           </ul>
+           </ul>      -->
 		
 
 	</body>

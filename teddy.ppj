@@ -1,8 +1,8 @@
 [PHPEdProject]
 GUID={18CB179F-07EE-48DF-A447-8A748271B638}
 RelativeRootDir=..\gaubong
-URL=http://localhost/teddy
-MappingRemoteDir=C:\xampp\htdocs\teddy
+URL=http://localhost/gaubong
+MappingRemoteDir=C:\xampp\htdocs\gaubong
 MappingPublishingRoot=
 DriverID=
 SourceControl=0
@@ -11,9 +11,9 @@ DefaultFile=
 HideFiles=.gitignore;.cvsignore
 HideDirs=CVS;.svn;.git
 EncoderEnabled=0
-MappingRemote0=C:\xampp\htdocs\teddy
+MappingRemote0=C:\xampp\htdocs\gaubong
 MappingLocal0=C:\xampp\htdocs\gaubong
-MappingURL0=http://localhost/teddy
+MappingURL0=http://localhost/gaubong
 MappingPublishing0=
 MappingCount=1
 MappingMainIdx=0
@@ -27,7 +27,7 @@ CvsHost=
 CvsRoot=
 CvsModule=
 CvsUser=
-CvsPassw=ZHmpJvXKgMCkxq1cnQJ5OHZ+B1T6OmKwHTZjTBJyTCia7s5EO6o0oE2mWjxs4hgYDV6yNHca6pCiFgQshVLfCA==
+CvsPassw=0/AIpyChVb/ZrRDryPmsV9uF6gNPUdfvwF2+G+epOYf3NWMzbgFhH/ANJ0s5Wc234OUfY4KxH0//vdl7MAlq5w==
 CvsUseUtf8=0
 CvsCVSROOT=:pserver:@
 IncPath_count=0

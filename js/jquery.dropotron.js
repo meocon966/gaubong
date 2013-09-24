@@ -9,7 +9,7 @@
 			selectorParent:		jQuery(this)
 		}, options);
 		return jQuery.dropotron(settings);
-	}
+	} 
 
 	jQuery.dropotron = function(options) {
 
@@ -324,7 +324,7 @@
 						menu.trigger('doToggle');
 					
 					});
-
+                    
 				if (settings.expandMode == 'hover')
 					opener.hover(function(e) {
 							if (isLocked)	
@@ -336,7 +336,7 @@
 						function (e) {
 							window.clearTimeout(hoverTimeoutId);
 						}
-					);
+					); 
 			});
 
 			_menus.find('a')
